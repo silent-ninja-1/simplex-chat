@@ -185,7 +185,7 @@ This method is recommended for advanced users.
 
 ## Incognito mode
 
-<img src="../../blog/images/20220901-incognito3.png" width="330">
+<img src="../../blog/images/20240124-connect1.png" width="330"> <img src="../../blog/images/20240124-connect2.png" width="330"> <img src="../../blog/images/20230925-incognito.png" width="330"> <img src="../../blog/images/20220901-incognito3.png" width="330">
 
 With Incognito mode, you can protect the privacy of your chat profile from new contacts you don't know or trust by sharing a random name and empty profile picture instead. This allows you to have as many anonymous connections without any shared data between them in a single chat profile. You can enable it at the point of connection when someone shares a 1-time link, SimpleX address or a group link with you. 
 
@@ -199,13 +199,9 @@ With Incognito mode, you can protect the privacy of your chat profile from new c
 #### To share an incognito profile with a SimpleX address:
 
 1. [Open the app settings menu](./app-settings.md#opening-the-app-settings-menu).
-
 2. Tap or click **Your SimpleX address**. 
-
 3. Tap or click **Create SimpleX address**, if it hasn't been created already. 
-
 4. Toggle **Auto-accept** on. 
-
 5. Toggle **Accept Incognito** on. 
 
 #### To create a group with an incognito profile:
@@ -216,7 +212,7 @@ With Incognito mode, you can protect the privacy of your chat profile from new c
 4. Toggle **Incognito**.
 5. Tap or click **Create group**. 
 
-**Please note**: you won't be able to directly invite your contacts; they can only join via your group link. 
+**Please note**: you won't be able to directly invite your contacts; they can only join your group via your group link. 
 
 #### To share an incognito profile when connecting via link:
 
