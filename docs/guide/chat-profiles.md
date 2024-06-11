@@ -23,11 +23,11 @@ You can create as many chat profiles as you like. You can create one for your fr
 #### To create an additional chat profile:
 
 1. [Open the app settings menu](./app-settings.md#opening-the-app-settings-menu).
-2. Tap or click **Your chat profiles**.
+2. Click or tap **Your chat profiles**.
 3. Confirm your device credentials or SimpleX Lock passcode, if you have [SimpleX Lock](./app-settings.md#simplex-lock) toggled on.
-4. Tap or click **+ Add profile**.
+4. Click or tap **+ Add profile**.
 5. Enter a profile name.
-6. Tap or click **Create profile**.
+6. Click or tap **Create profile**.
 
 ## Editing chat profiles
 
@@ -36,21 +36,21 @@ You can edit your chat profiles whenever you like.
 #### To edit your active chat profile:
 
 1. [Open the app settings menu](./app-settings.md#opening-the-app-settings-menu).
-2. Tap or click on your avatar/name.
+2. Click or tap on your avatar/name.
 3. Options:
    - Choose a new profile name.
    - Choose a new profile picture. 
-4. Tap or click **Save and notify contacts**.
+4. Click or tap **Save and notify contacts**.
 
 #### To edit another chat profile:
 
 1. [Switch to another chat profile](#to-switch-between-chat-profiles).
 2. [Open the app settings menu](./app-settings.md#opening-the-app-settings-menu).
-3. Tap or click on your avatar/name. 
+3. Click or tap on your avatar/name. 
 4. Options:
    - Choose a new display name.
    - Choose a new profile picture.
-5. Tap or click **Save and notify contacts**. 
+5. Click or tap **Save and notify contacts**. 
 
 ## Hiding chat profiles
 
@@ -61,33 +61,31 @@ You can hide chat profiles with a password from view.
 #### To hide a chat profile:
 
 1. [Open the app settings menu](./app-settings.md#opening-the-app-settings-menu).
-2. Tap or click **Your chat profiles**.
+2. Click or tap **Your chat profiles**.
 3. Confirm your device credentials or SimpleX Lock passcode, if you have [SimpleX Lock](./app-settings.md#simplex-lock) toggled on.
 4. Tap and hold (on Android) or swipe (on iOS) or right-click ( on desktop) on a chat profile.
-5. Tap or click **Hide**. 
+5. Click or tap **Hide**. 
 6. Create a password for your chat profile. 
-7. Tap or click **Save profile password**. 
+7. Click or tap **Save profile password**. 
 
 #### To reveal a hidden chat profile:
 
 1. [Open the app settings menu](./app-settings.md#opening-the-app-settings-menu).
-2. Tap or click **Your chat profiles**.
+2. Click or tap **Your chat profiles**.
 3. Confirm your device credentials or SimpleX Lock passcode, if you have [SimpleX Lock](./app-settings.md#simplex-lock) toggled on.
 4. Type in the chat profile password into the search bar, and your hidden chat profile should become visible.
 
 ## Muting chat profiles
 
-You can mute chat profiles to prohibit notifications of new messages on your device. 
+You can mute chat profiles to prohibit notifications of new messages arriving on your device, as long as you don't switch to them. 
 
 #### To mute a chat profile:
 
 1. [Open the app settings menu](./app-settings.md#opening-the-app-settings-menu).
-2. Tap or click **Your chat profiles**.
+2. Click or tap **Your chat profiles**.
 3. Confirm your device credentials or SimpleX Lock passcode, if you have [SimpleX Lock](./app-settings.md#simplex-lock) toggled on.
 4. Tap and hold (on Android) or swipe (on iOS) on a chat profile.
-5. Tap or click **Mute**.
-
-**Please note**: 
+5. Click or tap **Mute**.
 
 ## Switching between chat profiles
 
@@ -97,7 +95,7 @@ You can switch between chat profiles.
 
 #### To switch between chat profiles:
 
-1. Tap or click on your profile picture in the top-left corner of the **Chats** screen.
+1. Click or tap on your profile picture in the top-left corner of the **Chats** screen.
 2. Select which chat profile you want to use.
 
 **Tip:** you can also switch between chat profiles via the **Your chat profiles** screen from the app settings menu.
@@ -118,11 +116,11 @@ This method is recommended for most users. It creates a zipped archive containin
 
 1. [Open the app settings menu](./app-settings.md#opening-the-app-settings-menu).
 
-2. Tap or click **Migrate to another device**.
+2. Click or tap **Migrate to another device**.
 
 3. If you haven't setup a database passphrase yet, you'll be prompted to set one. Once you're done, tap or click **Set passphrase**. A window will appear confirming that your database is now encrypted. Tap or click **Ok**. If you already have a database passphrase, enter it and tap or click **Verify passphrase**.
 
-4. Tap or click **Archive and upload**. 
+4. Click or tap **Archive and upload**. 
 
 5. Show QR code or share file link to your new device. 
 
@@ -132,13 +130,13 @@ This method is recommended for most users. It creates a zipped archive containin
 
 2. Open the app. 
 
-3. Tap or click **Migrate from another device**. 
+3. Click or tap **Migrate from another device**. 
 
 4. Scan QR code on the old device or paste the file link from the old device. 
 
 #### On your old device:
 
-1. Tap or click **Finalize migration**.
+1. Click or tap **Finalize migration**.
 
 2. Options:
    
@@ -153,12 +151,12 @@ This method is recommended for advanced users.
 #### On your old device:
 
 1. [Open the app settings menu](./app-settings.md#opening-the-app-settings-menu).
-2. Tap or click **Database passphrase & export**.
+2. Click or tap **Database passphrase & export**.
 3. Toggle **Chat is running** off to stop SimpleX Chat from running.
-4. Tap or click **Stop** in the confirmation dialog.
+4. Click or tap **Stop** in the confirmation dialog.
 5. Confirm it with a fingerprint or PIN, in case you have [SimpleX Lock](./app-settings.md#simplex-lock) toggled on.
 6. If you didn't set it before, [set a passphrase](./managing-data.md#database-passphrase) in "Database passphrase". Initially, the database is encrypted with a random passphrase that is stored in KeyChain (iOS) or with KeyStore (Android).
-7. Tap **Export database** - it won't allow exporting unless you have set a passphrase.
+7. Click or tap **Export database** - it won't allow exporting unless you have set a passphrase.
 8. Save the file on your device or share it via any available option.
 
 #### On your new device:
@@ -167,12 +165,12 @@ This method is recommended for advanced users.
 2. Migrate the exported .zip file over to the new device.
 3. Create a chat profile with any name by following the steps in [Create your first chat profile](#create-your-first-chat-profile) – you will replace it soon.
 4. [Open app settings](./app-settings.md#opening-app-settings).
-5. Tap **Database passphrase & export**.
+5. Click or tap **Database passphrase & export**.
 6. Toggle **Chat is running** off to stop chat.
-7. Tap **Stop** in the confirmation dialog.
-8. Tap **Import database**.
+7. Click or tap **Stop** in the confirmation dialog.
+8. Click or tap **Import database**.
 9. Select the .zip file containing your exported SimpleX Chat data.
-10. Tap **Import** in the confirmation dialog.
+10. Click or tap **Import** in the confirmation dialog.
 11. Toggle **Chat is running** on to start the chat or close and restart the app – you will be prompted to enter the passphrase for your chat database.
 
 **Please note:**
@@ -192,29 +190,29 @@ With Incognito mode, you can protect the privacy of your chat profile from new c
 #### To share an incognito profile with a 1-time link:
 
 1. On Android, tap on the 🖉 (floating pencil) button in the bottom-right corner of the screen. On iOS, tap on the 🖉 (pencil) button in the top-right corner of the screen.
-2. Tap **Add contact**.
-3. Toggle **Incognito** on.
-4. Tap **Share 1-time link** to share with your contact from a distance. Or, you can show your QR code in person for your contact to scan.
+2. Click or tap **Add contact**.
+3. Click or tap **Incognito** on.
+4. Click or tap **Share 1-time link** to share with your contact from a distance. Or, you can show your QR code in person for your contact to scan.
 
 #### To share an incognito profile with a SimpleX address:
 
 1. [Open the app settings menu](./app-settings.md#opening-the-app-settings-menu).
-2. Tap or click **Your SimpleX address**. 
-3. Tap or click **Create SimpleX address**, if it hasn't been created already. 
+2. Click or tap **Your SimpleX address**. 
+3. Click or tap **Create SimpleX address**, if it hasn't been created already. 
 4. Toggle **Auto-accept** on. 
 5. Toggle **Accept Incognito** on. 
 
 #### To create a group with an incognito profile:
 
 1. On Android, tap on the 🖉 (floating pencil) button in the bottom-right corner of the screen. On iOS, tap on the 🖉 (pencil) button in the top-right corner of the screen.
-2. Tap or click **Create group**.
+2. Click or tap **Create group**.
 3. Enter group name. 
 4. Toggle **Incognito**.
-5. Tap or click **Create group**. 
+5. Click or tap **Create group**. 
 
 **Please note**: you won't be able to directly invite your contacts; they can only join your group via your group link. 
 
 #### To share an incognito profile when connecting via link:
 
 1. On the main **Chats** screen, tap on the QR code symbol in the right-hand side of the search bar. Scan QR Code or paste link. Or tap or click on a SimpleX link. 
-2. Tap or click **Use new incognito profile**. 
+2. Click or tap **Use new incognito profile**. 
