@@ -10,11 +10,11 @@ Because you have no user ID on the SimpleX platform, nobody can contact you unle
 - [One-time invitation](one-time-invitation)
 - [SimpleX address](#simplex-address)
 - [Connecting via link or QR code](#connect-via-link-or-qr-code)
-- [One-time invitation vs. SimpleX address](#one-time-invitations-vs.-simplex-address)
+- [One-time invitation vs. SimpleX address](#one-time-invitation-vs-simplex-address)
 
 ## One-time invitation
 
-As the name implies, they can only be used once to connect with someone. You can create and share them with your contacts as a link from a distance or as a QR code to be scanned in person or via a video call. 
+As the name implies, it can only be used once to connect with someone. You can create and share them with your contacts as a link from a distance or as a QR code to be scanned in person or via a video call. 
 
 #### To create and share a one-time invitation with your contact:
 
@@ -24,7 +24,7 @@ As the name implies, they can only be used once to connect with someone. You can
 4. (Optional) Toggle **Incognito** on to share an incognito profile with your contact.
 5. (Optional) Return to the **Chats** screen and then click or tap on the invitation to set a contact name to help remember who it's for.
 
-## ## SimpleX address
+## SimpleX address
 
 You can create a SimpleX address for other people to connect with you. When people connect to you via this address, you will receive a connection request that you can accept or reject. You can configure an automatic acceptance of connection requests with a welcome message that will be sent to new contacts when they connect with you. You can also share your SimpleX address on your chat profile, so group members can connect with you and your contacts can share it with others - if this is something you want. If you start receiving too many requests via your SimpleX address, it's safe to delete it from your chat profile – all the connections you've made with this address will remain active, as it's not used to deliver messages.
 
@@ -58,7 +58,7 @@ You can securely connect with other users via link or QR code.
 
 #### If you have SimpleX Chat installed on your device:
 
-- `if your contact is not a SimpleX Chat user` - Click or tap on the QR code symbol in the right-hand side of the search bar from the **Chats** screen. Scan QR code or paste 1-time link you received from your connect to connect with them.
+- `if your contact is not a SimpleX Chat user` - Click or tap on the QR code symbol in the right-hand side of the search bar from the **Chats** screen. Scan QR code or paste link you received from your connect to connect with them.
 
 - `if your contact is a SimpleX Chat user` - Click or tap on the SimpleX link (one-time invitation or SimpleX address) you received from them and you can either share your current chat profile or an incognito profile with them. 
 
