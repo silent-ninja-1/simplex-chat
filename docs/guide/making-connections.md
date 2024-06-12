@@ -7,7 +7,7 @@ title: Making connections
 
 Because you have no user ID on the SimpleX platform, nobody can contact you unless you share a one-time invitation or a SimpleX address. Click or tap on the following sections to learn more:
 
-- [One-time invitation](one-time-invitation)
+- [One-time invitation](#one-time-invitation)
 - [SimpleX address](#simplex-address)
 - [Connecting via link or QR code](#connect-via-link-or-qr-code)
 - [One-time invitation vs. SimpleX address](#one-time-invitation-vs-simplex-address)
