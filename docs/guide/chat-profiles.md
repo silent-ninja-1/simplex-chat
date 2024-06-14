@@ -1,10 +1,11 @@
 ---
 title: Chat profiles
+
 ---
 
 # Your chat profiles
 
-Since SimpleX Chat doesn't require any user ID's, there are no user accounts required to use it. Instead, you use chat profiles. A name is all you need to create one. They are stored locally on your device and only shared with your contacts. SimpleX servers have zero knowledge of them. Click or tap on the following sections to learn more:
+Since SimpleX Chat does not require any user ID's, there are no user accounts required to use it. Instead, you use chat profiles. A name is all you need to create one. They're stored locally on your device and only shared with your contacts. SimpleX servers have zero knowledge of them. Click or tap on the following sections to learn more:
 
 - [Creating additional chat profiles](#creating-additional-chat-profiles)
 - [Editing chat profiles](#editing-chat-profiles)
@@ -104,13 +105,13 @@ You can switch between chat profiles.
 
 There are two methods to migrate your chat profiles from your old device to another device:
 
-- Upload Archive to SimpleX File Servers and Scan QR Code/Paste File Link
+- Upload Archive to SimpleX File Servers and Scan QR Code/Paste File Link To Download
 
 - Manual Export and Import Archive
 
-### Upload Archive to SimpleX File Servers and Scan QR Code/Paste File Link
+### Upload Archive to SimpleX File Servers and Scan QR Code/Paste File Link To Download
 
-This method is recommended for most users. It creates a zipped archive containing all your data and uploads it across several SimpleX file servers. A QR code and file link are generated afterwards. 
+This method is recommended for most users. The app creates a zipped archive containing all your data and uploads it across several SimpleX file servers. A QR code and file link are generated afterwards for you to start downloading it onto your new device. 
 
 #### On your old device:
 
@@ -132,7 +133,7 @@ This method is recommended for most users. It creates a zipped archive containin
 
 3. Click or tap **Migrate from another device**. 
 
-4. Scan QR code on the old device or paste the file link from the old device. 
+4. Scan QR code or paste the file link from the old device. 
 
 #### On your old device:
 
@@ -144,7 +145,7 @@ This method is recommended for most users. It creates a zipped archive containin
    
    - `Delete database from this device (Recommended)` - Deleting the database from your old device will avoid message delivery failures on your new device.  
 
-### Manual Export and Import Archive
+### Export and Import Archive
 
 This method is recommended for advanced users.
 
@@ -187,11 +188,11 @@ This method is recommended for advanced users.
 
 With Incognito mode, you can protect the privacy of your chat profile from new contacts you don't know or trust by sharing a random name and empty profile picture instead. This allows you to have as many anonymous connections without any shared data between them in a single chat profile. You can enable it at the point of connection when someone shares a 1-time link, SimpleX address or a group link with you. 
 
-#### To share an incognito profile with a 1-time link:
+#### To share an incognito profile with a one-time invitation:
 
 1. On Android, tap on the 🖉 (floating pencil) button in the bottom-right corner of the screen. On iOS, tap on the 🖉 (pencil) button in the top-right corner of the screen.
 2. Click or tap **Add contact**.
-3. Click or tap **Incognito** on.
+3. Toggle **Incognito** on.
 4. Click or tap **Share 1-time link** to share with your contact from a distance. Or, you can show your QR code in person for your contact to scan.
 
 #### To share an incognito profile with a SimpleX address:
@@ -207,12 +208,15 @@ With Incognito mode, you can protect the privacy of your chat profile from new c
 1. On Android, tap on the 🖉 (floating pencil) button in the bottom-right corner of the screen. On iOS, tap on the 🖉 (pencil) button in the top-right corner of the screen.
 2. Click or tap **Create group**.
 3. Enter group name. 
-4. Toggle **Incognito**.
+4. Toggle **Incognito** on.
 5. Click or tap **Create group**. 
 
 **Please note**: you won't be able to directly invite your contacts; they can only join your group via your group link. 
 
-#### To share an incognito profile when connecting via link:
+#### To share an incognito profile when connecting via link or QR code:
 
-1. On the main **Chats** screen, tap on the QR code symbol in the right-hand side of the search bar. Scan QR Code or paste link. Or tap or click on a SimpleX link. 
-2. Click or tap **Use new incognito profile**. 
+- Click or tap on the QR code symbol in the right-hand side of the search bar on the **Chats** screen. Scan QR code or paste link you received from your contact to connect with them. Click or tap **Use new incognito profile**. 
+
+- Copy the SimpleX Link received from your contact. Paste it into the searchbar towards the top of the **Chats** screen. Click or tap **Use new incognito profile**.
+
+- Click or tap on the SimpleX link you received from them inside the app. Click or tap **Use new incognito profile**.

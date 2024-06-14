@@ -26,7 +26,7 @@ As the name implies, it can only be used once to connect with someone. You can c
 
 ## SimpleX address
 
-You can create a SimpleX address for other people to connect with you. When people connect to you via this address, you will receive a connection request that you can accept or reject. You can configure an automatic acceptance of connection requests with a welcome message that will be sent to new contacts when they connect with you. You can also share your SimpleX address on your chat profile, so group members can connect with you and your contacts can share it with others - if this is something you want. If you start receiving too many requests via your SimpleX address, it's safe to delete it from your chat profile – all the connections you've made with this address will remain active, as it's not used to deliver messages.
+You can create a SimpleX address for other people to connect with you. When people connect to you via this address, you will receive a connection request that you can accept or reject. You can configure an automatic acceptance of connection requests with a welcome message that will be sent to new contacts when they connect with you. You can also share your SimpleX address on your chat profile, so group members can connect with you and your contacts can share it with others - if this is something you want. 
 
 #### To create and share a SimpleX address:
 
@@ -46,21 +46,25 @@ You can create a SimpleX address for other people to connect with you. When peop
 
 8. (Optional) Add a welcome message. 
 
+**Please note**: if you start receiving too many requests via your SimpleX address, it's safe to delete it from your chat profile – all the connections you've made with this address will remain active, as it's not used to deliver messages.
+
 ## Connect via link or QR code
 
 You can securely connect with other users via link or QR code. 
 
 #### If you don't have SimpleX Chat installed on your device:
 
-1. Click or tap on the SimpleX link (one-time invitation or SimpleX address) you received from your contact. You'll be redirected to a webpage detailing instructions on how to connect. 
+1. Click or tap on the SimpleX link you received from your contact. You'll be redirected to a webpage detailing instructions on how to connect. 
 
 2. After you've download and installed SimpleX Chat on your device, tap **Open in mobile app** on the webpage to connect with your contact.
 
 #### If you have SimpleX Chat installed on your device:
 
-- `if your contact is not a SimpleX Chat user` - Click or tap on the QR code symbol in the right-hand side of the search bar from the **Chats** screen. Scan QR code or paste link you received from your connect to connect with them.
+- Click or tap on the QR code symbol in the right-hand side of the search bar on the **Chats** screen. Scan QR code or paste link you received from your contact to connect with them.
 
-- `if your contact is a SimpleX Chat user` - Click or tap on the SimpleX link (one-time invitation or SimpleX address) you received from them and you can either share your current chat profile or an incognito profile with them. 
+- Copy the SimpleX Link received from your contact. Paste it into the searchbar towards the top of the **Chats** screen. You'll be prompted to share your current chat profile or an incognito profile to connect with them. 
+
+- Click or tap on the SimpleX link you received from them and you'll be prompted to share your current chat profile or an incognito profile with them. 
 
 ## One-time invitation vs. SimpleX address
 

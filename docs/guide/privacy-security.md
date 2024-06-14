@@ -2,7 +2,7 @@
 title: Privacy & security
 ---
 
-# Privacy and Security
+# Privacy and security
 
 SimpleX Chat's default configuration aims to balance privacy, security and convenience. You may want to change the default options to suit your needs. This page lists all the features and options that affect privacy and security. Click or tap on the following sections to learn more:
 
@@ -84,17 +84,17 @@ Now that you've set a self-destruct passcode. You can enter it at any time when 
 
 This setting affects the ability to hide the app's screen in the recent apps list - it's enabled by default. It also prevents screenshots on Android.
 
-### Send Link Previews
+### Send link previews
 
 This setting affects the ability to send link previews to your contacts and groups - it's disabled by default. 
 
 **Please note**: enabling link previews may reduce privacy, as the app will load the link preview from the website.
 
-### Show Last Messages
+### Show last messages
 
 This setting affects the visibility of your last messages on the **Chats** screen - it's enabled by default. If you want to protect this information from someone looking over your shoulder, for example, you can simply disable it.
 
-### Message Draft
+### Message draft
 
 This setting affects the ability to draft a message - it's enabled by default. However, you can only have one message draft at a time. This will last until you either:
 
@@ -104,32 +104,32 @@ This setting affects the ability to draft a message - it's enabled by default. H
 
 - Toggle the setting off.
 
-### SimpleX Links
+### SimpleX links
 
 This setting affects how SimpleX links used to connect with other SimpleX users or to join groups are displayed in the UI. You can choose between:
 
 - `description (default)` - Only the link description and server host name are shown. The link won't be opened in the browser, however.
 - `full link` - The full link is shown. The link will still not be opened in the browser, however.
 
-### Encrypt Local Files
+### Encrypt local files
 
 This setting affects encryption at rest for locally stored files and media on your device - it's toggled on by default. You can toggle it off, if you need to access the files from outside of the app, for example. 
 
-### Auto-Accept Images
+### Auto-accept images
 
 This setting affects how images are received from your contacts and groups - it's toggled on by default. However, auto-accepting images may reduce privacy because your contacts will know that you are online.
 
-### Protect IP Address
+### Protect IP address
 
 This setting affects the privacy of your IP address when downloading files and media from unknown file servers - it's toggled on by default. If you have this option toggled off, and you don't use Tor or a VPN, then your IP address will be exposed to unknown file servers.
 
-### Send Delivery Receipts To Contacts and Small Groups (max 20 members)
+### Send delivery receipts to contacts and small groups (max 20 members)
 
 These settings affect the ability to send delivery receipts to contacts and small groups with a maximum number of 20 members. Both are toggled on by default.
 
 **Please note**: These settings are applied on a per-chat-profile basis. They can be overridden in contact and group preferences. 
 
-## Security Code Verification
+## Security code verification
 
 <img src="../../blog/images/20230103-verification.png" width="288">
 
@@ -151,9 +151,9 @@ For more details on security code verification, please read [this blog post](../
 
 ## Database passphrase
 
-On mobile, SimpleX Chat generates a random passphrase by default and stores it securely in KeyChain (iOS) or using KeyStore (Android, TPM module is used when available) after creating your first chat profile. You can set your own passphrase and also remove it from the device via the [Database passphrase & export](./managing-data.md#database-passphrase) settings. On desktop, SimpleX Chat gives you the option to either generate a random passphrase or set a new passphrase before creating your first chat profile. 
+On mobile, SimpleX Chat generates a random passphrase by default and stores it securely in KeyChain (iOS) or using KeyStore (Android, TPM module is used when available) after creating your first chat profile. You can set your own passphrase and also remove it from the device via the [Database passphrase & export](./managing-data.md#database-passphrase) settings. On desktop, SimpleX Chat gives you the option to either generate a random passphrase or set a new passphrase after creating your first chat profile. 
 
-**Please note**: removing your passphrase will prompt you to enter it every time you start the app and this may impact receiving notifications.
+**Please note**: removing your passphrase from the app's settings will prompt you to manually enter it every time you start the app and this may impact receiving notifications.
 
 ## Incognito mode
 
@@ -169,13 +169,11 @@ This feature allows you to hide some of your chat profiles with a password. For 
 
 [Transport isolation](./app-settings.md#transport-isolation-beta) allows you to isolate your network traffic by using a different TCP connection and Tor circuit for each contact and group member, or for each chat profile in the app. 
 
-
-
 ### Using Tor
 
 <img src="../../blog/images/20220808-tor1.png" width="330">&nbsp;<img src="../../blog/images/20220808-tor2.png" width="330">
 
-To connect to SMP relays (messaging servers) and XFTP relays (file servers) via Tor you need to install Orbot app.
+To connect to SMP relays (messaging servers) and XFTP relays (file servers) via Tor, you need to install Orbot app.
 
 **Android**: use Orbot app as SOCKS proxy on port 9050 (default) and enable [Use SOCKS proxy](./app-settings.md#use-socks-proxy-android-only).
 
