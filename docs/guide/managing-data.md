@@ -21,7 +21,7 @@ Here you can choose to delete messages from your local chat database after a set
 
 1. [Open the app settings menu](./app-settings.md#opening-the-app-settings-menu).
 
-2. Tap or click **Database passphrase & export**.
+2. Click or tap **Database passphrase & export**.
 
 3. From the **Delete messages after** dropdown, choose one of the following options:
    
@@ -33,7 +33,7 @@ Here you can choose to delete messages from your local chat database after a set
    
    - `1 day`
 
-4. Tap or click **Delete messages**.
+4. Click or tap **Delete messages**.
 
 **Please note**: This feature does not delete messages for other users, only for you. It is set independently for each chat profile.
 
