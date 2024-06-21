@@ -57,7 +57,7 @@ You can edit your chat profiles whenever you like.
 
 <img src="../../blog/images/20230328-hidden-profiles1.png" width="288"> &nbsp;&nbsp; <img src="../../blog/images/20230328-hidden-profiles2.png" width="288">&nbsp;&nbsp;<img src="../../blog/images/20230328-hidden-profiles3.png" width="288">
 
-You can hide chat profiles with a password from view. 
+You can hide chat profiles from view with a password.
 
 #### To hide a chat profile:
 
@@ -107,7 +107,7 @@ There are two methods to migrate your chat profiles from your old device to anot
 
 - Upload Archive to SimpleX File Servers and Scan QR Code/Paste File Link To Download
 
-- Manual Export and Import Archive
+- Manually Export and Import Archive
 
 ### Upload Archive to SimpleX File Servers and Scan QR Code/Paste File Link To Download
 
@@ -145,7 +145,7 @@ This method is recommended for most users. The app creates a zipped archive cont
    
    - `Delete database from this device (Recommended)` - Deleting the database from your old device will avoid message delivery failures on your new device.  
 
-### Export and Import Archive
+### Manually Export and Import Archive
 
 This method is recommended for advanced users.
 

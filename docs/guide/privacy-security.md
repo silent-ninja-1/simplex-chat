@@ -1,5 +1,6 @@
 ---
 title: Privacy & security
+
 ---
 
 # Privacy and security
@@ -19,7 +20,7 @@ These settings are available in the app settings menu.
 
 ### SimpleX Lock
 
-This setting affects the ability to use SimpleX Lock - it's disabled by default. Depending on what type of lock mode you choose when you choose to enable it, this feature will provide either device-level authentication or app-level authentication for the app. SimpleX Lock prompts you to confirm your device credentials (PIN, face, fingerprint, or pattern) or a passcode when you open the app, resume the app after a set amount of inactivity expires, or to use some security- or privacy-sensitive features. 
+This setting affects the ability to use SimpleX Lock - it's disabled by default. Depending on what type of lock you choose when you enable it, this feature will provide either device-level authentication or app-level authentication for the app. SimpleX Lock prompts you to confirm your device credentials (PIN, face, fingerprint, or pattern) or a passcode when you open the app, resume the app after a set amount of inactivity expires, or to use some security- or privacy-sensitive features. 
 
 #### To enable it:
 
@@ -31,24 +32,18 @@ This setting affects the ability to use SimpleX Lock - it's disabled by default.
 
 4. From the **Lock mode** dropdown, choose one of the following options:
    
-   - System
-   
-   - Passcode
+   - `System`
+   - `Passcode`
 
 5. Toggle **Enable lock** on. If you've set **Lock mode** to `System`, then you'll be prompted to confirm your device credentials. If you've set **Lock mode** to `Passcode`, then you'll be prompted to create a SimpleX Lock passcode.
 
 6. From the **Lock after** dropdown, choose one of the following options:
    
    - `10 seconds`
-   
    - `30 seconds`
-   
    - `1 minute`
-   
    - `3 minutes`
-   
    - `10 minutes`
-   
    - `Immediately`
 
 #### To disable it:
@@ -99,9 +94,7 @@ This setting affects the visibility of your last messages on the **Chats** scree
 This setting affects the ability to draft a message - it's enabled by default. However, you can only have one message draft at a time. This will last until you either:
 
 - Compose another message draft to send to another contact or group.
-
 - Close the app.
-
 - Toggle the setting off.
 
 ### SimpleX links
@@ -133,7 +126,7 @@ These settings affect the ability to send delivery receipts to contacts and smal
 
 <img src="../../blog/images/20230103-verification.png" width="288">
 
-Although SimpleX Chat always establishes connections via a link passed via an independent channel, so it is already more protected than other apps, there are scenarios when one-time invitation links can be substituted in transit as part of a man-in-the-middle (MITM) attack. To protect against such attacks, you should verify the security of your connections with your contacts. 
+Although SimpleX Chat always establishes connections via a link passed via an independent channel, there are scenarios when a link can be substituted with a malicious link in transit as part of a man-in-the-middle (MITM) attack. To protect against such attacks, you should verify the security of your connections with your contacts. 
 
 #### To verify security code:
 
@@ -151,17 +144,15 @@ For more details on security code verification, please read [this blog post](../
 
 ## Database passphrase
 
-On mobile, SimpleX Chat generates a random passphrase by default and stores it securely in KeyChain (iOS) or using KeyStore (Android, TPM module is used when available) after creating your first chat profile. You can set your own passphrase and also remove it from the device via the [Database passphrase & export](./managing-data.md#database-passphrase) settings. On desktop, SimpleX Chat gives you the option to either generate a random passphrase or set a new passphrase after creating your first chat profile. 
-
-**Please note**: removing your passphrase from the app's settings will prompt you to manually enter it every time you start the app and this may impact receiving notifications.
+A passphrase is used to encrypt the database.  For more details, please visit the [Managing Data page](./managing-data.md#database-passphrase).
 
 ## Incognito mode
 
-This feature generates an incognito profile with a random namd and empty profile for each new contact. For more details, please visit [Incognito mode](./chat-profiles.md#incognito-mode).
+This feature generates an incognito profile with a random name and empty profile for each new contact. For more details, please visit the [Chat profiles page](./chat-profiles.md#incognito-mode).
 
 ## Hidden profiles
 
-This feature allows you to hide some of your chat profiles with a password. For more details, please visit [Hiding chat profiles](./chat-profiles.md#hiding-chat-profiles).
+This feature allows you to hide some of your chat profiles with a password. For more details, please visit the [Chat profiles page](./chat-profiles.md#hiding-chat-profiles).
 
 ## Network settings
 
@@ -181,32 +172,4 @@ To connect to SMP relays (messaging servers) and XFTP relays (file servers) via 
 
 You can also change which server addresses are used with [Use .onion hosts option](./app-settings.md#use-onion-hosts).
 
-### Private Message Routing
-
-SimpleX Chat offers IP address protection for users who need it. It's enabled when your IP address is unprotected while connecting to unknown servers by default. For more technical details on how private message routing works, please read [this blog post](https://simplex.chat/blog/20240604-simplex-chat-v5.8-private-message-routing-chat-themes.html#private-message-routing).
-
-#### To configure private routing:
-
-1. [Open the app settings menu](./app-settings.md#opening-the-app-settings-menu).
-
-2. Tap **Network and servers**.
-
-3. From the **Private routing** dropdown, choose one of the following options:
-   
-   - `always` - Always use private routing.
-   
-   - `unknown relays` - Use private routing with unknown servers.
-   
-   - `unprotected (default)` - Use private routing with unknown servers when IP address is not protected.
-   
-   - `never` - Do not use private routing.
-
-4. From the **Allow downgrade** dropdown, choose one of the following options:
-   
-   - `Yes (default)` - Send messages directly when your or destination server does not support private routing.
-   
-   - `When IP hidden` - Send messages directly when IP address is protected and your or destination server does not support private routing.
-   
-   - `No` - Do NOT send messages directly, even if your or destination server does not support private routing.
-
-5. (Optional) Toggle **Show message status** on to show that your messages have been privately routed.
+# 

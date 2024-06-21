@@ -45,7 +45,7 @@ SimpleX Chat stores all your data locally in a portable, encrypted database that
 
 <img src="../../blog/images/20220928-passphrase.png" width="330">
 
-The database is encrypted with a random passphrase that is stored in KeyChain (iOS) or with KeyStore (Android) by default. It's highly recommended to set a new database passphrase and store it somewhere safely and securely. Without it, you won't be able to perform certain actions such as exporting your database or removing your database passphrase from app settings for increased security.
+On mobile, SimpleX Chat encrypts the database with a random passphrase by default and stores it securely in KeyChain (iOS) or using KeyStore (Android, TPM module is used when available) before you start using the app. On desktop, SimpleX Chat gives you the option to either generate a random passphrase or set a new passphrase before you start using the app. It's highly recommended to set a new database passphrase and store it somewhere safely and securely. Without it, you won't be able to perform certain actions such as exporting your database or removing your database passphrase from app settings for increased security.
 
 #### To set a new database passphrase:
 
@@ -53,9 +53,9 @@ The database is encrypted with a random passphrase that is stored in KeyChain (i
 2. Click or tap **Database passphrase & export**.
 3. Toggle **Chat is running** off to stop SimpleX Chat from running.
 4. Click or tap **Database passphrase**.
-5. Enter your current passphrase, if you already have one set up. 
-6. Choose your new passphrase. 
-7. Confirm your new passphrase. 
+5. Enter your current passphrase, if you already have one set up.
+6. Choose your new passphrase.
+7. Confirm your new passphrase.
 8. Click or tap **Update database passphrase**.
 
 #### To remove your database passphrase from app settings:
@@ -64,9 +64,9 @@ The database is encrypted with a random passphrase that is stored in KeyChain (i
 2. Click or tap **Database passphrase & export**.
 3. Toggle **Chat is running** off to stop SimpleX Chat from running.
 4. Click or tap **Database passphrase**.
-5. Toggle **Save passphrase in settings** off. 
+5. Toggle **Save passphrase in settings** off.
 
-**Please note**: removing your database passphrase from the app settings will prompt you to manually enter it every time you start the app, which may impact receiving notifications. 
+**Please note**: removing your passphrase from the app's settings will prompt you to manually enter it every time you start the app and this may impact receiving notifications.
 
 ### Open database folder (Desktop only)
 
